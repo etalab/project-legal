@@ -1,0 +1,30 @@
+{
+  "name": "@etalab/project-legal",
+  "version": "0.0.0",
+  "description": "Projection de coordonnées WGS-84 vers le système légal français en vigueur",
+  "main": "index.js",
+  "repository": "git@github.com:etalab/project-legal.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "proj4": "^2.5.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "RGF93 / Lambert-93",
+    "description": "France métropolitaine",
+    "epsg": 2154,
+    "bounds": [-9.86, 41.15, 10.38, 51.56],
+    "proj4": "+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+    "precision": 2
+  }
+]
