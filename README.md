@@ -12,7 +12,7 @@ npm install @etalab/project-legal
 
 ## Utilisation
 
-```
+```js
 const proj = require('@etalab/project-legal')
 
 proj([2.308310, 48.850244]) // 20 Avenue de Ségur à Paris
