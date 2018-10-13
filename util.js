@@ -3,4 +3,8 @@ function fixPrecision(number, precision) {
   return Math.round(number * powerOfTen) / powerOfTen
 }
 
-module.exports = {fixPrecision}
+function roundCoords(coords, precision = 0) {
+  return coords.map(c => fixPrecision(c, precision))
+}
+
+module.exports = {fixPrecision, roundCoords}

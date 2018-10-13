@@ -6,5 +6,45 @@
     "bounds": [-9.86, 41.15, 10.38, 51.56],
     "proj4": "+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
     "precision": 2
+  },
+  {
+    "name": "RGAF09 / UTM zone 20N",
+    "description": "Antilles françaises",
+    "epsg": 5490,
+    "bounds": [-63.66, 14.08, -57.52, 18.54],
+    "proj4": "+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+    "precision": 2
+  },
+  {
+    "name": "RGFG95 / UTM zone 22N",
+    "description": "Guyane",
+    "epsg": 2972,
+    "bounds": [-54.6, 2.11, -49.46, 8.88],
+    "proj4": "+proj=utm +zone=22 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+    "precision": 2
+  },
+  {
+    "name": "RGR92 / UTM zone 40S",
+    "description": "Réunion",
+    "epsg": 2975,
+    "bounds": [51.83, -24.72, 58.24, -18.28],
+    "proj4": "+proj=utm +zone=40 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+    "precision": 2
+  },
+  {
+    "name": "RGM04 / UTM zone 38S",
+    "description": "Mayotte",
+    "epsg": 4471,
+    "bounds": [43.68, -14.49, 46.7, -11.33],
+    "proj4": "+proj=utm +zone=38 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+    "precision": 2
+  },
+  {
+    "name": "RGSPM06 / UTM zone 21N",
+    "description": "Saint-Pierre-et-Miquelon",
+    "epsg": 4467,
+    "bounds": [-57.1, 43.41, -55.9, 47.37],
+    "proj4": "+proj=utm +zone=21 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+    "precision": 2
   }
 ]

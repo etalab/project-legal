@@ -29,6 +29,11 @@ _En construction_
 | Territoire | Projection |
 | ----- | ----- |
 | France métropolitaine | RGF93 / Lambert-93 |
+| Antilles françaises | RGAF09 / UTM zone 20N |
+| Guyane | RGFG95 / UTM zone 22N |
+| Réunion | RGR92 / UTM zone 40S |
+| Mayotte | RGM04 / UTM zone 38S |
+| Saint-Pierre-et-Miquelon | RGSPM06 / UTM zone 21N |
 
 ## Licence
 
