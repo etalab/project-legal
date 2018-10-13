@@ -24,8 +24,6 @@ proj([-18.984375, 65.080666]) // Islande
 
 ## Projections légales supportées
 
-_En construction_
-
 | Territoire | Projection |
 | ----- | ----- |
 | France métropolitaine | RGF93 / Lambert-93 |
