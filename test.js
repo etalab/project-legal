@@ -1,6 +1,6 @@
 const test = require('ava')
-const {roundCoords} = require('./util')
-const proj = require('.')
+const {roundCoords} = require('./lib/util')
+const proj = require('./lib')
 
 test('20 Avenue de Ségur, Paris', t => {
   const coords = proj([2.308310, 48.850244])
