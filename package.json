@@ -39,7 +39,7 @@
     "node": ">= 8"
   },
   "browser": {
-    "./index.js": "./browser/index.js"
+    "./lib/index.js": "./browser/index.js"
   },
   "babel": {
     "plugins": [
