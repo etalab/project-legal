@@ -1,4 +1,5 @@
 const proj4 = require('proj4')
+const {fixPrecision} = require('./util')
 
 const projections = require('./projections.json')
   .map(definition => {
@@ -16,11 +17,6 @@ function isInBBox([lon, lat], [minX, minY, maxX, maxY]) {
 
 function isValid(coords) {
   return isInBBox(coords, [-180, -90, 180, 90])
-}
-
-function fixPrecision(number, precision) {
-  const powerOfTen = 10 ** precision
-  return Math.round(number * powerOfTen) / powerOfTen
 }
 
 function proj(coords) {
