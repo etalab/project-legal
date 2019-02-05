@@ -22,6 +22,17 @@ proj([-18.984375, 65.080666]) // Islande
 // => null
 ```
 
+## Navigateur
+
+Cette bibliothèque expose un point d’entrée `browser` pour être utilisée dans une application web.
+Afin de fonctionner dans un plus grand nombre de navigateurs, elle est *transpilée* avec `babel` – avec le plugin `@babel/plugin-transform-runtime`.
+
+Il sera donc nécessaire d’installer `@babel/runtime-corejs2` :
+
+```bash
+npm install @etalab/project-legal @babel/runtime-corejs2
+```
+
 ## Projections légales supportées
 
 | Territoire | Projection |
