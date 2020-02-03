@@ -41,7 +41,7 @@
     }
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 10"
   },
   "browser": {
     "./index.js": "./browser.js"
