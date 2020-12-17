@@ -18,7 +18,8 @@
     "projections.json"
   ],
   "scripts": {
-    "test": "xo && ava",
+    "lint": "xo",
+    "test": "ava",
     "transpile": "babel lib --out-dir browser",
     "prepublishOnly": "yarn transpile"
   },
