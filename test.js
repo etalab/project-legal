@@ -1,3 +1,4 @@
+/* eslint unicorn/numeric-separators-style: off */
 const test = require('ava')
 const {roundCoords} = require('./lib/util')
 const proj = require('.')
