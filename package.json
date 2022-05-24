@@ -1,6 +1,6 @@
 {
   "name": "@etalab/project-legal",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Projection de coordonnées WGS-84 vers le système légal français en vigueur",
   "main": "./index.js",
   "repository": "https://github.com/BaseAdresseNationale/project-legal",
