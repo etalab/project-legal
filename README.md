@@ -43,6 +43,9 @@ npm install @etalab/project-legal @babel/runtime-corejs2
 | Réunion | RGR92 / UTM zone 40S |
 | Mayotte | RGM04 / UTM zone 38S |
 | Saint-Pierre-et-Miquelon | RGSPM06 / UTM zone 21N |
+| Nouvelle Calédonie | RGNC91-93 / Lambert New Caledonia |
+| Polynésie Française | RGPF / UTM zone 5S 6S 7S 8S |
+| Wallis et Futuna | MOP78 / UTM zone 1S |
 
 ## Licence
 
