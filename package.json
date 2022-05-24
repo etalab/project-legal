@@ -24,7 +24,7 @@
     "prepublishOnly": "yarn transpile"
   },
   "dependencies": {
-    "proj4": "^2.6.3"
+    "proj4": "^2.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
