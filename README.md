@@ -2,7 +2,7 @@
 
 > Projection de coordonnées WGS-84 vers le système légal français en vigueur
 
-[![npm version](https://img.shields.io/npm/v/@etalab/project-legal.svg)](https://www.npmjs.com/package/@etalab/project-legal)
+[![npm version](https://img.shields.io/npm/v/@etalab/project-legal.svg)](https://www.npmjs.com/package/@etalab/project-legal) [![Coverage Status](https://coveralls.io/repos/github/etalab/project-legal/badge.svg?branch=master)](https://coveralls.io/github/etalab/project-legal?branch=master)
 
 ## Installation
 
