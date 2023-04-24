@@ -3,7 +3,7 @@
   "version": "0.6.0",
   "description": "Projection de coordonnées WGS-84 vers le système légal français en vigueur",
   "main": "./index.js",
-  "repository": "https://github.com/BaseAdresseNationale/project-legal",
+  "repository": "https://github.com/etalab/project-legal",
   "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
   "license": "MIT",
   "private": false,
