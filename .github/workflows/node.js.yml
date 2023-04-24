@@ -23,5 +23,7 @@ jobs:
           cache: yarn
       - run: yarn --frozen-lockfile
       - run: yarn lint
-      - run: yarn test
+      - run: yarn test-lcov
+      - name: Coveralls
+        uses: coverallsapp/github-action@v2
       - run: yarn transpile
